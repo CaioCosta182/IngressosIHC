@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎫 Tickets IHC - Plataforma de Ingressos
 
-## Getting Started
+Projeto desenvolvido para a disciplina de **Interação Humano-Computador (IHC)** no **IFMG Campus Ouro Branco** (Semestre 2026/1).
 
-First, run the development server:
+O objetivo deste projeto é implementar o front-end de um sistema de venda de ingressos, aplicando as **10 Heurísticas de Nielsen** para garantir a melhor experiência de usabilidade.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tecnologias Utilizadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*   **Next.js 15** (App Router & Turbopack)
+*   **Tailwind CSS** (Estilização responsiva e moderna)
+*   **Zustand** (Gerenciamento de estado global para simulação de dados)
+*   **QRCode.react** (Geração de ingressos digitais)
+*   **Lucide React** (Ícones)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 Heurísticas de Nielsen Aplicadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O projeto foi construído sob os pilares da Engenharia de Usabilidade, destacando-se:
 
-## Learn More
+1.  **Visibilidade do Status do Sistema:** Feedback visual imediato ao selecionar assentos e processar compras.
+2.  **Prevenção de Erros:** Botões de ação desabilitados até o preenchimento correto dos dados e bloqueio de assentos ocupados.
+3.  **Reconhecimento em vez de Memorização:** Histórico de ingressos com fotos e informações claras no perfil do usuário.
+4.  **Estética e Design Minimalista:** Interface limpa focada na tarefa principal do usuário.
 
-To learn more about Next.js, take a look at the following resources:
+## 📋 Requisitos Implementados
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [x] Sistema de Login (Simulado).
+- [x] Listagem de eventos futuros e passados.
+- [x] Seleção de categorias (Pista, VIP, etc.).
+- [x] Mapa de assentos funcional.
+- [x] Checkout simulado com feedback de processamento.
+- [x] Perfil do usuário com histórico cronológico.
+- [x] Geração de Ingresso Digital com QR-Code.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔧 Como rodar o projeto
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Instale as dependências:
+   ```bash
+   npm install
